@@ -23,6 +23,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".activitys.BuscaInfo"> </activity>
+        <activity android:name=".activitys.TelaCarros"></activity>
     </application>
 
 </manifest>

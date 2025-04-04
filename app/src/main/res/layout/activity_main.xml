@@ -28,7 +28,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="30dp"
-            android:text="Bem-Vindo ao info carros"
+            android:text="Bem-Vindo ao info veículos"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="24sp"

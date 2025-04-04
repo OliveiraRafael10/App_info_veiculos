@@ -1,5 +1,6 @@
 package com.example.info_carros_api.activitys;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Toast;
 
@@ -66,9 +67,6 @@ public class BuscaInfo extends AppCompatActivity {
             }
         });
 
-
-
     }
-
 
 }
