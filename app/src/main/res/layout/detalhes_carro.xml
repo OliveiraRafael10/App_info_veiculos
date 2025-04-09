@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/esmerald_green"
+    tools:context=".activitys.TelaDetalhesCarro">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Detalhes do veículo"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp">
+
+        <!-- LinearLayout interno para organizar os TextView verticalmente -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/txtTitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Título"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingBottom="8dp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <TableLayout
+        android:id="@+id/tblDetalhes"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/table_background"
+        android:backgroundTint="#FFFCFC"
+        android:stretchColumns="1">
+
+        <!-- Linha 1 -->
+        <TableRow>
+
+            <TextView
+                android:padding="8dp"
+                android:text="Código Fipe"
+                android:textStyle="bold"
+                android:background="@drawable/cell_background"/>
+
+            <TextView
+                android:id="@+id/txtFipe"
+                android:padding="8dp"
+                android:text="******"
+                android:background="@drawable/cell_background"/>
+        </TableRow>
+
+        <!-- Linha 2 -->
+        <TableRow>
+
+            <TextView
+                android:padding="8dp"
+                android:text="Marca"
+                android:textStyle="bold"
+                android:background="@drawable/cell_background"/>
+
+            <TextView
+                android:id="@+id/txtMarca"
+                android:padding="8dp"
+                android:text="******"
+                android:background="@drawable/cell_background"/>
+        </TableRow>
+
+        <!-- Linha 3 -->
+        <TableRow>
+
+            <TextView
+                android:padding="8dp"
+                android:text="Referencia"
+                android:textStyle="bold"
+                android:background="@drawable/cell_background"/>
+
+            <TextView
+                android:id="@+id/txtReferencia"
+                android:padding="8dp"
+                android:text="******"
+                android:background="@drawable/cell_background"/>
+        </TableRow>
+
+        <!-- Linha 4 -->
+        <TableRow>
+
+            <TextView
+                android:padding="8dp"
+                android:text="Ano modelo"
+                android:textStyle="bold"
+                android:background="@drawable/cell_background"/>
+
+            <TextView
+                android:id="@+id/txtAno"
+                android:padding="8dp"
+                android:text="******"
+                android:background="@drawable/cell_background"/>
+        </TableRow>
+
+        <!-- Linha 5 -->
+        <TableRow>
+
+            <TextView
+                android:padding="8dp"
+                android:text="Combustivel"
+                android:textStyle="bold"
+                android:background="@drawable/cell_background"/>
+
+            <TextView
+                android:id="@+id/txtCombustivel"
+                android:padding="8dp"
+                android:text="******"
+                android:background="@drawable/cell_background"/>
+        </TableRow>
+
+        <!-- Linha 3 -->
+        <TableRow>
+
+            <TextView
+                android:padding="8dp"
+                android:text="Preço      (R$)"
+                android:textStyle="bold"
+                android:background="@drawable/cell_background"/>
+
+            <TextView
+                android:id="@+id/txtPreco"
+                android:padding="8dp"
+                android:text="******"
+                android:background="@drawable/cell_background"/>
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>

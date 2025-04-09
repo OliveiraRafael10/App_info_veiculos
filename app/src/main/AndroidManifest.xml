@@ -24,6 +24,7 @@
         </activity>
         <activity android:name=".activitys.BuscaInfo"> </activity>
         <activity android:name=".activitys.TelaCarros"></activity>
+        <activity android:name=".activitys.TelaDetalhesCarro"></activity>
     </application>
 
 </manifest>
