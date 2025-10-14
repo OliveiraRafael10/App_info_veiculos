@@ -18,8 +18,6 @@ O Info Carros API é um aplicativo Android que permite aos usuários visualizar 
 - RecyclerView​
 
 - Retrofit
-​
-- Material Components​
 
 
 # Pré-requisitos
