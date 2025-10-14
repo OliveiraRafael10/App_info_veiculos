@@ -1,5 +1,5 @@
 # Info Carros API
-O Info Carros API é um aplicativo Android que permite aos usuários visualizar informações detalhadas sobre diferentes marcas de veículos. Utilizando a API do site api.invertexto.com, o aplicativo busca e exibe dados atualizados sobre fabricantes de veículos.​
+O Info Carros API é um aplicativo Android desenvolvido na aula de aplçicativos mobile da faculdade que permite aos usuários visualizar informações detalhadas sobre diferentes marcas de veículos. Utilizando a API do site api.invertexto.com, o aplicativo busca e exibe dados atualizados sobre fabricantes de veículos.​
 
 # Funcionalidades
 - Seleção de Tipo de Veículo: Os usuários podem escolher entre diferentes categorias de veículos (por exemplo, carros, motos, caminhões) utilizando os componentes Chip.​
